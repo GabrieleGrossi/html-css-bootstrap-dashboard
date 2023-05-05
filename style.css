@@ -4,3 +4,7 @@
 .my_bg-lightblue{
     background-color: #1b72e8;
 }
+header div.container-fluid div.row div.col-1 i{
+    margin-right: 8px;
+    font-size: 25px;
+}
