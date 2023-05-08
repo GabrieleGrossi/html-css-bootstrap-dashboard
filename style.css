@@ -45,7 +45,6 @@ nav a{
 }
 .my_main{
     height: calc(100% - 150px);
-    background-color: magenta;
     padding: 1rem;
 }
 main section{
@@ -53,4 +52,13 @@ main section{
 }
 .my_class-icon{
     width: 25px;
+}
+
+@media screen and (max-width: 991px) {
+    nav.my_sidebar{
+        padding-right: 1rem;
+    }
+    nav.my_sidebar div.my_upper-nav a{
+        display: none;
+    }
 }
