@@ -59,6 +59,7 @@ main section{
     border: 1px solid white;
     text-align: center;
     margin-left: 1rem;
+    padding: 0;
 }
 @media screen and (max-width: 991px) {
     nav.my_sidebar{

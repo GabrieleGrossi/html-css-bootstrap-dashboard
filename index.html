@@ -77,20 +77,79 @@
                     <h5>
                         Nuovo Studente
                     </h5>
-                    <button class="btn btn-primary my_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> + </button>
-
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasRightLabel">
-                            Offcanvas right
-                            </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
-                            </button>
+                    <button class="btn btn-primary my_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        +
+                    </button>
+                        <div class="offcanvas offcanvas-end text-black my_offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style="width:50%">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                                Inserisci un nuovo studente
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                                </button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <form class="row g-3">
+                                    <div class="col-6">
+                                        Nome
+                                        <input type="text" class="form-control" aria-label="First name">
+                                    </div>
+                                    <div class="col-6">
+                                        Cognome
+                                        <input type="text" class="form-control" aria-label="First name">
+                                    </div>
+                                    <div class="col-6">
+                                        Email
+                                        <label class="visually-hidden" for="inlineFormInputGroupUsername">
+                                        </label>
+                                        <div class="input-group">
+                                          <div class="input-group-text">@</div>
+                                          <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        Password
+                                        <label for="inputPassword3"></label>
+                                        <div>
+                                          <input type="password" class="form-control" id="inputPassword3">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        Indirizzo
+                                        <label for="inputAddress" class="form-label"></label>
+                                        <input type="text" class="form-control" id="inputAddress">
+                                    </div>                                      <div class="col-md-6">
+                                        Città
+                                        <label for="inputCity" class="form-label"></label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-4">
+                                        Stato
+                                        <label for="inputState" class="form-label"></label>
+                                        <select id="inputState" class="form-select">
+                                          <option selected>Scegli...</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        CAP
+                                        <label for="inputZip" class="form-label"></label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="input-group mb-3 mt-5">
+                                        <input type="file" class="form-control" id="inputGroupFile01">
+                                    </div>
+                                    <div class="form-check p-0">
+                                        <input class="form-check-input ms-1 me-2" type="checkbox" value="" id="invalidCheck2" required>
+                                        <label class="form-check-label" for="invalidCheck2">
+                                        Seleziona per proseguire
+                                        </label>
+                                    </div>
+                                    <button type="button" class="btn btn-primary col-1 me-1">Salva</button>
+                                    <button type="button" class="btn btn-warning col-1">Svuota</button>                           
+                                </form>
+                            </div>
                         </div>
-                        <div class="offcanvas-body">
-                            Cose da inserire
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="my_main container-fluid">
