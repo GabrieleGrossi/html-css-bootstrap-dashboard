@@ -1,3 +1,9 @@
+header{
+    height: 80px;
+}
+main{
+    height: calc(100vh - 80px);
+}
 .my_bg-darkblue{
     background-color: #051e34;
 }
@@ -9,7 +15,7 @@ header div.container-fluid div.row div.col-1 i{
     font-size: 20px;
 }
 .my_sidebar{
-    width: 200px;
+    width: 180px;
     height: 100vh;
     background: url(img/sidebar-bg.png);
     background-color: #051e34;
@@ -32,4 +38,19 @@ nav li{
 nav a{
     text-decoration: none;
     color: white;
+}
+.my_upper-main{
+   height: 180px;
+   width: calc(100% - 180px);
+   background-color: #1b72e8;
+   color: white;
+   padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+}
+.my_main{
+    height: calc(100% - 180px);
+    width: calc(100% - 180px);
+    background-color: magenta;
 }
